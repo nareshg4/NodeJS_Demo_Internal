@@ -7,5 +7,5 @@ spec:
   selector:
     app: internal
   ports:
-  - port: 7777
+  - port: 7082
     targetPort: 8082

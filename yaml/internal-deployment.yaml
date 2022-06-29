@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: internal-contianer
-        image: nareshg4/internal:1.1
+        image: nareshg4/internal:v1.1
         resources:
           requests:
             memory: "32Mi"
