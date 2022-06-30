@@ -15,7 +15,7 @@ pipeline {
                 }
             }
             steps {
-                echo 'Retrieve source from github' 
+                echo 'Retrieve source from github repo' 
                 git branch: 'master',
                     url: 'https://github.com/nareshg4/NodeJS_Demo_Internal.git'
                 echo 'showing files from repo?' 
