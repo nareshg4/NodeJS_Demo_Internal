@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     environment {
-        registryCredential = 'dockerhub'
+        registryCredential = '15c5d38b-ec1c-4213-899b-9e4f554e2e77'
         imageName = 'nareshg4/internal'
         dockerImage = ''
         }
